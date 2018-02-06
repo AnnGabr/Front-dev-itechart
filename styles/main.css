@@ -1,0 +1,9 @@
+html {
+    display: flex;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
