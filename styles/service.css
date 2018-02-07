@@ -38,12 +38,10 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     color: white;
-
-    align-items: flex-start;
 }
 
 .item__inner-text .inner-text__title {
-    margin-bottom: 27px;
+    margin-bottom: 22px;
     font-size: 24px;
     font-weight: bold;
 }
@@ -55,12 +53,18 @@
 }
 
 .item__inner-text .inner-text__more {
-    margin-top: 26px;
+    margin-top: 21px;
     font-size: 18px;
     font-weight: bold;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-
 .service__more-icon {
-    font-size: 30px;
+    display: flex;
+    color: white;
+    padding-left: 13px;
 }

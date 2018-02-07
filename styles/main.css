@@ -17,21 +17,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap; 
 }
 
 .inner-text p{
     line-height: 22px;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-    font-family: 'icomoon';
-    font-style: normal;
-    font-weight: normal;
-}
-
-.icon-right-arrow:before{
-    content: '\e901';
-    color: #f77462;
 }
