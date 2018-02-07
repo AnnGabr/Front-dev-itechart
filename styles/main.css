@@ -2,3 +2,36 @@ body {
     display: block;
     width: 100%;
 }
+
+.circle-icon {
+    border-style: solid;
+    border-width: 0;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+}
+  
+.inner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.inner-text p{
+    line-height: 22px;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.icon-right-arrow:before{
+    content: '\e901';
+    color: #f77462;
+}

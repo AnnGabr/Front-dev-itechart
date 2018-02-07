@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles\reset.css" />
     <link rel="stylesheet" type="text/css" href="styles\fonts.css" />
-    <link rel="stylesheet" type="text/css" href="styles\colors.css" />
     <link rel="stylesheet" type="text/css" href="styles\main.css" />
     <link rel="stylesheet" type="text/css" href="styles\header.css" />
     <link rel="stylesheet" type="text/css" href="styles\banner.css" />
+    <link rel="stylesheet" type="text/css" href="styles\service.css" />
 </head>
 <body>
     <header class="header-container">
@@ -42,13 +42,45 @@
         <section class="banner-container">
             <img class="screen-img" src="resources/images/screen.png">
             <div class="banner-info-container">
-                <div class="banner-text">
-                    <p class="top-text">Lorem ipsum dolor sit amet</p>
-                    <p class="middle-text">DONEC NEC JUSTO EGET</p>
+                <div class="inner-text banner-text">
+                    <div class="top-text">Lorem ipsum dolor sit amet</div>
+                    <div class="middle-text">DONEC NEC JUSTO EGET</div>
                     <p class="bottom-text">Morbi in sem quis dui placerat ornare. Pellentesque odio<br>
                     euismod in, pharetra a, ultricies in, diam.</p> 
                 </div>
                 <div class="banner-btn">MORE INFO</div>
+            </div>
+        </section>
+        <section class="service">
+            <div class="service__item">
+                <div class="service__item__icon circle-icon">
+                    <img src="/resources/images/flag.svg">
+                </div> 
+                <div class="item__inner-text inner-text">
+                    <div class="inner-text__title">Ausce Cellentes</div>
+                    <p class="inner-text__mics">Phasellus ultrices nulla quis nibh.<br>Quisque a lectus. Donec consectetuer<br>ligula vulputate sem tristique</p>
+                    <div class="inner-text__more">Read More</div>
+                </div>
+            </div>
+            <div class="service__item">
+                <div class="service__item__icon circle-icon">
+                    <img src="/resources/images/camera.svg">
+                </div> 
+                <div class="item__inner-text inner-text">
+                    <div class="inner-text__title">Vestibul auctor</div>
+                    <p class="inner-text__mics">Loasellus ultrices nulla quis nibh.<br> Quisque a lectus. Donec consectetuer<br> ligula vulputate sem tristique</p>
+                    <div class="inner-text__more">Read More</div>
+                </div>
+            </div>
+            <div class="service__item">
+                <div class="service__item__icon circle-icon">
+                    <img src="/resources/images/home.svg">
+                </div>
+                <div class="item__inner-text inner-text">
+                    <div class="inner-text__title">Cras ornare</div>
+                    <p class="inner-text__mics">Simasellus ultrices nulla quis nibh.<br> Quisque a lectus. Donec consectetuer<br> ligula vulputate sem tristique</p>
+                    <div class="inner-text__more">Read More<span class=".service__more-icon icon-arrow-circle-right"/></div>
+                </div>
             </div>
         </section>
     </main>
