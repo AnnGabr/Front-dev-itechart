@@ -11,7 +11,7 @@
     background-color: #f77462;
 }
 
-.c-attention__title, .c-attention__article {
+.c-attention__title, .c-attention__prh {
     color: white;
 }
 
@@ -20,7 +20,7 @@
     margin-bottom: 14px;
 }
 
-.c-attention__article {
+.c-attention__prh {
     text-align: center;
     line-height: 30px;
     font-size: 18px;

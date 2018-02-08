@@ -33,26 +33,32 @@
     left: 0px;
 }
 
-.service__item .item__inner-text{
+.service__article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    
     padding: 0 10px 0 18px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     color: white;
 }
 
-.item__inner-text .inner-text__title {
+.service__title {
     margin-bottom: 22px;
     font-size: 24px;
     font-weight: bold;
 }
 
-.item__inner-text .inner-text__mics {
+.service__prh {
     font-size: 17px;
     font-weight: normal; 
     word-wrap: normal; 
 }
 
-.item__inner-text .inner-text__more {
+.service__more {
     margin-top: 21px;
     font-size: 18px;
     font-weight: bold;

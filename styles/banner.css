@@ -11,7 +11,7 @@
     flex-wrap: wrap;
   }
 
-.screen-img {
+.banner__screen-img {
     display: block;
     height: 358px;
     padding: 0 50px 0 0;
@@ -27,34 +27,34 @@
     max-width: 470px;
 }
 
-.banner-text {
+.banner__article {
     padding: 0 0 40px 0;
 }
 
-.top-text, .middle-text {
+.banner__subtitle, .banner__title {
     font-family: 'Source Sans Pro', sans-serif;
     color: #003d48;
 }
 
-.top-text {
+.banner__subtitle {
     font-weight: 300;
     font-size: 30px;
 }
 
-.middle-text {
+.banner__title {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 38px;
     margin: 15px 0 28px 0;
 }
 
-.bottom-text {
+.banner__prh {
     color:#929292;
     font-family: 'Lato', sans-serif;
     font-size: 17px;
 }
 
-.banner-btn {
+.banner__btn {
     width: 129px;
     height: 44px;
     line-height: 44px;
