@@ -1,4 +1,4 @@
-.staff-person, .staff-panel-container {
+.staff-person, .staff-panel-container, .staff {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,13 +12,7 @@
 }
 
 .staff {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.staff {
     margin: 0 10px 0 10px;
 }
 

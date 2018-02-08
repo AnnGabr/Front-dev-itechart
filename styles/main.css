@@ -25,6 +25,18 @@ body {
     line-height: 22px;
 }
 
+.article-like {
+    line-height: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+.h1-like {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
 p.article {
     line-height: 22px;
     font-family: 'Source Sans Pro', sans-serif;

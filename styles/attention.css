@@ -1,0 +1,29 @@
+.l-attention, .c-attention {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-attention {
+    width: 100%;
+    height: 205px;
+    background-color: #f77462;
+}
+
+.c-attention__title, .c-attention__article {
+    color: white;
+}
+
+.c-attention__title {
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.c-attention__article {
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+  
