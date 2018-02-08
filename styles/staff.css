@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-.staff .staff-person {
+.staff {
     margin: 0 10px 0 10px;
 }
 
@@ -32,6 +32,10 @@
     width: 189px;
 }
 
+.staff-person__photo + .staff-person__char {
+    margin-left: 29px;
+}
+
 .staff-person__char {
     display: flex;
     justify-content: space-between;
@@ -39,8 +43,7 @@
     align-items: flex-start;
     flex-wrap: nowrap;
 
-    height: 196px;
-    margin-left: 29px;
+    height: 196px;  
 }
 
 .staff-person__article{
@@ -59,14 +62,4 @@
     height: 38px;
     line-height: 38px;
     font-size: 16px;
-}
-
-.panel {
-    display: flex;
-    width: 340px;
-    height: 430px;
-
-    border-width: 5px;
-    border-radius: 3px;
-    border-color: #ececec;
 }

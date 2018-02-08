@@ -33,11 +33,25 @@ p.article {
 
 .btn {
     border-radius: 3px;
+    border-width: 0;
     background-color: #f77462;
+    background-clip: border-box;
 
     text-align: center;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: white;
+}
+
+.btn--active {
+    background-color: #003d48;
+    color: #f77462;
+    border-color: #ececec;
+}
+
+.btn--inactive {
+    background-color: white;   
+    color: #929292;
+    border-color: #ececec;
 }
