@@ -106,19 +106,17 @@
     justify-content: flex-start;
 }
 
-.news__title + .news__comments {
-    margin-top: 8px;
-}
-
-.news__comments + .news__about {
+.news__about {
     margin-top: 12px;
 }
 
 .news__comments {
+    margin-top: 8px;
     color: #f77462;
 }
 
-.news__more-icon {   
+.news__more-icon {  
+    margin-left: 8px;
     color: #f77462;
 }
 
