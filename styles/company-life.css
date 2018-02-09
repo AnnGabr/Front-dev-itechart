@@ -3,6 +3,10 @@
     background-color: white;
 }
 
+.life {
+    margin: 58px 0 60px 0;
+}
+
 .life__header, life__body{
     width: 100%;
     text-align: center;

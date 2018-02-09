@@ -1,6 +1,6 @@
 .attention-container {
     width: 100%;
-    height: 205px;
+    min-height: 205px;
     background-color: #f77462;
 }
 
