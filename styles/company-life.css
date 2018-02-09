@@ -1,33 +1,23 @@
-.l-life-container, .l-life-col, .l-life-col__item, .c-says__icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.l-life-container {
+.life-container {
     height: 650px;
     background-color: white;
 }
 
-.l-life-content {
-    width: 95%;
+.life__header, life__body{
+    width: 100%;
+    text-align: center;
 }
 
-.life-title {
+.life__title {
     text-align: center;
-    font-size: 32px;
     color: #003d48;
 }
 
-.life-prh {
-    text-align: center;
+.life__prh {
     font-size: 22px;
     font-weight: 300;
     color: #6dc5dd;
     line-height: 40px;
-
-    width: 100%;
     height: 40px;
 
     border-width: 1px 0 1px 0;
@@ -35,30 +25,30 @@
     border-style: solid; 
 }
 
-.life-title + .life-prh {
+.life__title + .life__prh {
     margin-top: 25px;
 }
 
-.l-news-says {
+.life__header + .life__body {
+    margin-top: 36px;
+}
+
+.life__body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.c-life__prh + .l-news-says {
-    margin-top: 20px;
+.life__list + .life__list{
+    margin-left: 50px;
 }
 
-.l-life-col {
-    width: 530px;
-    margin: 20px 0 20px 20px;
-}
-
-.l-life-col__item + .l-life-col__item{
+.life__list-item + .life__list-item {
     margin-top: 38px;
 }
 
-.l-life-col__item {
+.life__list-item {
     width: 100%;
 }
 
@@ -66,51 +56,53 @@
 
 }
 
-.c-says .c-says__comment {
+.says .says__comment {
     margin: 10px 27px 10px 27px;
 }
 
-.c-says {
+.says {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    width: 100%;
     height: 173px;
     background-color: #ececec;
 }
 
-.c-says__comment {
+.says__comment {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;   
 }
 
-.c-says__what + .c-says__who {
+.says__what + .says__who {
     margin-top: 18px;
 }
 
-.c-says__what {
+.says__what {
     color: rgb(140, 145, 147);
     font-size: 15px;
 }
   
-.c-says__who {
+.says__who {
     font-weight: bold;
     font-size: 16px;
     color: rgb(247, 116, 98);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.c-says__comment +.c-says__icon {
+.says__comment +.says__icon {
     margin-right: 27px;
 }
 
-.c-says__icon {
+.says__icon {
     width: 106px;
     height: 106px;  
 }
 
+.says__icon-img {
+    width: 70px;
+    height: 70px;  
+}
 
   

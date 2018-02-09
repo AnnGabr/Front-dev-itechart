@@ -3,6 +3,21 @@ body {
     width: 100%;
 }
 
+.container, .content, .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.content {
+    width: 95%;
+}
+
 .circle-icon {
     border-style: solid;
     border-width: 0;
@@ -22,7 +37,7 @@ body {
 .h1-like {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 32px;
 }
 
 .btn {
