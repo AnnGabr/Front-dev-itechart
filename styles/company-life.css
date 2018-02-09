@@ -1,5 +1,5 @@
 .life-container {
-    height: 650px;
+    min-height: 650px;
     background-color: white;
 }
 
@@ -49,11 +49,73 @@
 }
 
 .life__list-item {
-    width: 100%;
+    max-width: 548px;
 }
 
-.c-news {
+.news {
+    min-height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
+.news__date + .news__article{
+    margin-left: 27px;
+}
+
+.news__date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #6dc5dd;
+    border-radius: 3px;
+    height: 67px;
+    width: 67px;
+    color: white;
+}
+
+.news__day, .news__month {
+    font-family: 'Source Sans Pro', sans-serif;;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.news__day {
+    font-size: 35px;
+    line-height: 43px;
+}
+  
+.news__month {
+    font-size: 18px;
+    line-height: 21px;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.news__article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.news__title + .news__comments {
+    margin-top: 8px;
+}
+
+.news__comments + .news__about {
+    margin-top: 12px;
+}
+
+.news__comments {
+    color: #f77462;
+}
+
+.news__more-icon {   
+    color: #f77462;
 }
 
 .says .says__comment {
@@ -64,7 +126,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 173px;
+    min-height: 173px;
     background-color: #ececec;
 }
 

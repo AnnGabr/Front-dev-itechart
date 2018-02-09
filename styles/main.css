@@ -1,6 +1,7 @@
 body {
     display: block;
     width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container, .content, .list {
@@ -31,15 +32,27 @@ body {
 .prh {
     line-height: 22px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
+    color: rgb(120, 120, 120);
 }
 
-.h1-like {
+.prh--white {
+    color: white;
+}
+  
+.h2-like {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 32px;
 }
 
+.h4-like {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 61, 72);
+}
+  
 .btn {
     border-radius: 3px;
     border-width: 0;
