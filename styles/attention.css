@@ -4,6 +4,11 @@
     background-color: #f77462;
 }
 
+.attention {
+    box-sizing: border-box;
+    padding: 53px 0 53px 0;
+}
+
 .attention__title, .attention__prh {
     color: white;
 }
