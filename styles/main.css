@@ -1,6 +1,9 @@
 body {
     display: block;
     width: 100%;
+}
+
+.main-theme {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -19,6 +22,22 @@ body {
     width: 95%;
 }
 
+.list--row {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.article__title {
+    margin-bottom: 18px;
+}
+
 .circle-icon {
     border-style: solid;
     border-width: 0;
@@ -31,7 +50,6 @@ body {
 
 .prh {
     line-height: 22px;
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     color: rgb(120, 120, 120);
 }
@@ -41,14 +59,17 @@ body {
 }
   
 .h2-like {
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 32px;
 }
 
+.h3-like {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .h4-like {
     font-size: 16px;
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     color: rgb(0, 61, 72);
 }
