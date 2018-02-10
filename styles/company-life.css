@@ -12,6 +12,16 @@
     text-align: center;
 }
 
+.life__header + .life__body {
+    margin-top: 36px;
+}
+
+.life__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .life__title {
     text-align: center;
     color: #003d48;
@@ -31,17 +41,6 @@
 
 .life__title + .life__prh {
     margin-top: 25px;
-}
-
-.life__header + .life__body {
-    margin-top: 36px;
-}
-
-.life__body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .life__list + .life__list{
