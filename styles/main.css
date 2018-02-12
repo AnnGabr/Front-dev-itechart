@@ -1,6 +1,10 @@
+html {
+    background-image: url('../resources/images/page-background.png');
+}
+
 body {
     display: block;
-    width: 100%;
+    margin: 90px 376px 103px 364px;
 }
 
 .main-theme {
