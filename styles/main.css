@@ -87,14 +87,6 @@ body {
     color: white;
 }
 
-.btn--active {
-    background-color: #003d48;
-    color: #f77462;
-    border-color: #ececec;
-}
-
 .btn--inactive {
-    background-color: white;   
-    color: #929292;
-    border-color: #ececec;
+    
 }
