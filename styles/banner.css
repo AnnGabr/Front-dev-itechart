@@ -2,7 +2,7 @@
     background-image: -moz-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(243,243,243) 79%, rgb(231,231,231) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(243,243,243) 79%, rgb(231,231,231) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(243,243,243) 79%, rgb(231,231,231) 100%);
-    min-height: 400px;
+    min-height: 380px;
     width: 100%;
     align-items: flex-end;
     flex-direction: row;
@@ -13,12 +13,12 @@
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
-    margin: 51px 0 0 0;
+    margin: 52px 0 0 0;
 }
 
 .banner__screen-img {
     display: block;
-    height: 358px;
+    height: 350px;
 }
 
 .banner__screen-img + .banner__info-container {

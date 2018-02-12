@@ -4,7 +4,8 @@ html {
 
 body {
     display: block;
-    margin: 90px 376px 103px 364px;
+    margin: 101px 358px 90px 375px;
+    border-radius: 5px;
 }
 
 .main-theme {

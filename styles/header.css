@@ -1,8 +1,6 @@
-
-
 .header-container {
     background-color: white; 
-    height: 100px;
+    height: 98px;
     width: 100%;
     display:flex;
     justify-content: space-between;
@@ -18,20 +16,21 @@
     justify-content: flex-end; 
     height: 12.25px;
     align-items: center;
+    margin-right: 8px;
 }
 
 .nav-item {
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 0 30px 0 30px;
+    padding: 0 27.25px 0 27.75px;
     color: #787878;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
-
+  
 .nav-item + .nav-item {
     border-left-style: solid;
     border-color: #e7e7e7; 
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .first-item {
@@ -43,16 +42,23 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 26.2px;
+    height: 38px;
+}
+
+.logo-img {
+    display: block;
+    width: 58px;
+    height: 46px;
 }
 
 .logo-text {
-    padding: 0 0 0 20px;
+    margin: -2px 0 0 16px;
 }
 
 .logo-site, .logo-name {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 25px;
+    font-size: 26px;
 }
 
 .logo-site {
@@ -68,6 +74,6 @@
 .logo-caption {
     color:#929292;
     font-family: 'Lato', sans-serif;
-    font-size: 15.5px;
+    font-size: 14.8px;
 }
   
