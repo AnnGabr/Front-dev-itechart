@@ -9,15 +9,21 @@
      width: 100%;
      min-height: 574px;
      background-color: white;
+     box-sizing: border-box;
+     padding: 50px 0 60px 0;
+}
+
+.staff-panel {
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 .staff {
     flex-direction: column;
-    margin: 0 10px 0 10px;
 }
 
 .staff-person + .staff-person{
-    margin-top: 58px
+    margin-top: 60px
 }
 
 .staff-person__photo {
