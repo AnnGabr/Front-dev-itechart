@@ -1,11 +1,15 @@
 html {
     background-image: url('../resources/images/page-background.png');
+    box-sizing: border-box;
+    padding: 101px 0 90px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body {
     display: block;
-    margin: 101px 358px 90px 375px;
-    border-radius: 5px;
+    width: 1170px;
 }
 
 .main-theme {
