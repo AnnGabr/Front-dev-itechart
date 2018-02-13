@@ -1,10 +1,12 @@
 .life-container {
-    min-height: 650px;
+    min-height: 648px;
     background-color: white;
+    justify-content: flex-start;
 }
 
 .life {
-    margin: 58px 0 60px 0;
+    margin: 55px 0 60px 0;
+    justify-content: flex-start;
 }
 
 .life__header, life__body{
@@ -13,13 +15,14 @@
 }
 
 .life__header + .life__body {
-    margin-top: 36px;
+    margin-top: 30px;
 }
 
 .life__body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .life__title {
@@ -31,8 +34,8 @@
     font-size: 22px;
     font-weight: 300;
     color: #6dc5dd;
-    line-height: 40px;
-    height: 40px;
+    line-height: 46px;
+    height: 48px;
 
     border-width: 1px 0 1px 0;
     border-color: #ececec;
@@ -45,6 +48,11 @@
 
 .life__list + .life__list{
     margin-left: 50px;
+}
+
+.life__list {
+    width: 50%;
+    align-items: flex-start;
 }
 
 .life__list-item + .life__list-item {

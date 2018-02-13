@@ -6,6 +6,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    border-radius: 5px 5px 0 0;
 }
 
 .nav {

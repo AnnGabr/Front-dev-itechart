@@ -2,20 +2,23 @@
     min-height: 270px;
     width: 100%;
     background-color: #6dc5dd;
+    justify-content: flex-start;
 }
 
 .services {
     box-sizing: border-box;
-    padding: 52px 0 4px 0;
+    padding: 60px 0 0 0;
+    justify-content: flex-start;
 }
 
 .services__list{
     align-items: center;
+    justify-content: space-between;
     width: 100%;
 }
 
 .service + .service {
-    margin-left: 30px;
+    margin-left: 12px;
 }
 
 .service {
@@ -25,8 +28,6 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-start;
-
-    margin-bottom: 48px;
 }
 
 .service__icon {
@@ -36,8 +37,8 @@
     flex-wrap: wrap;
 
     background-size: 67px 67px;
-    width: 67px;
-    height: 67px;
+    width: 64px;
+    height: 64px;
     top: 0px;
     left: 0px;
 }
@@ -49,27 +50,25 @@
     align-items: flex-start;
     flex-wrap: wrap; 
     
-    padding: 0 10px 0 18px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
+    padding: 0 0 0 26px;
     color: white;
 }
 
 .service__title {
-    margin-bottom: 22px;
-    font-size: 24px;
+    margin-bottom: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
 
 .service__prh {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: normal; 
     word-wrap: normal; 
 }
 
 .service__more {
-    margin-top: 21px;
-    font-size: 18px;
+    margin-top: 24px;
+    font-size: 16px;
     font-weight: bold;
 
     display: flex;
@@ -81,5 +80,5 @@
 .service__more-icon {
     display: flex;
     color: white;
-    padding-left: 13px;
+    padding-left: 10px;
 }
