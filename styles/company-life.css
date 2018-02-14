@@ -15,7 +15,7 @@
 }
 
 .life__header + .life__body {
-    margin-top: 41px;
+    margin-top: 40px;
 }
 
 .life__body {
@@ -55,11 +55,11 @@
 }
 
 .life__list-item + .life__list-item {
-    margin-top: 39px;
+    margin-top: 40px;
 }
 
 .life__news-item + .life__news-item {
-    margin-top: 51px;
+    margin-top: 50px;
 }
 
 .news {
@@ -174,7 +174,7 @@
 }
 
 .says__icon-img {
-    width: 70px;
+    width: 76px;
     height: 70px;  
 }
 

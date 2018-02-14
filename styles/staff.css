@@ -7,8 +7,9 @@
 
 .staff-panel-container {    
      width: 100%;
-     min-height: 572px;
+     min-height: 574px;
      background-color: white;
+     justify-content: center;
      box-sizing: border-box;
      padding: 59px 0 60px 0;
 }
@@ -16,6 +17,7 @@
 .staff-panel {
     flex-direction: row;
     align-items: flex-start;
+    justify-content: space-between;
     margin: 0 5px 0 5px;
 }
 
@@ -34,7 +36,7 @@
 }
 
 .staff-person__photo + .staff-person__char {
-    margin-left: 29px;
+    margin-left: 30px;
 }
 
 .staff-person__char {
