@@ -23,6 +23,7 @@
 
 .staff {
     flex-direction: column;
+    max-width: 740px;
 }
 
 .staff-person + .staff-person{

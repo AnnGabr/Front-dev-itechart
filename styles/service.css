@@ -6,56 +6,46 @@
 
 .services {
     box-sizing: border-box;
-    padding: 60px 0 60px 0;
+    margin: 48px 0 54px 0;
     width: 95%;
 }
 
 .services__list{
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-
     width: 100%;
 }
 
 .service + .service {
-    margin-left: 12px;
+    margin-left: 30px;
 }
 
 .service {
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
+    max-width: 340px;
 }
 
 .service__icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     flex-shrink: 0;
 
-    background-size: 67px 67px;
-    width: 64px;
-    height: 64px;
-    top: 0px;
-    left: 0px;
+    width: 63px;
+    height: 63px;
 }
 
 .service__article{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap; 
-    
-    padding: 0 0 0 26px;
+    display: block;
     color: white;
+    margin-left: 28px;
 }
 
 .service__title {
-    margin-bottom: 20px;
+    margin-bottom: 21px;
     font-size: 22px;
     font-weight: bold;
 }
@@ -63,11 +53,11 @@
 .service__prh {
     font-size: 15px;
     font-weight: normal; 
-    word-wrap: normal; 
+    line-height: 24px;
 }
 
 .service__more {
-    margin-top: 24px;
+    margin-top: 20px;
     font-size: 16px;
     font-weight: bold;
 

@@ -137,7 +137,7 @@
     justify-content: space-between;
     align-items: flex-start;
     min-height: 173px;
-    min-width: 540px;
+    width: 540px;
     background-color: #ececec;
     box-sizing: border-box;
     padding: 37px 26px 26px 33px;
@@ -171,6 +171,7 @@
 .says__icon {
     width: 106px;
     height: 106px;  
+    flex-shrink: 0;
 }
 
 .says__icon-img {

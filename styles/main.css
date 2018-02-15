@@ -36,17 +36,6 @@ body {
     justify-content: space-between;
 }
 
-.article {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.article__title {
-    margin-bottom: 18px;
-}
-
 .circle-icon {
     border-style: solid;
     border-width: 0;
@@ -61,6 +50,10 @@ body {
     line-height: 22px;
     font-size: 15px;
     color: rgb(120, 120, 120);
+
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 .prh--white {
