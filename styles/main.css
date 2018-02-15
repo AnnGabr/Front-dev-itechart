@@ -51,9 +51,9 @@ body {
     font-size: 15px;
     color: rgb(120, 120, 120);
 
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
 }
 
 .prh--white {
