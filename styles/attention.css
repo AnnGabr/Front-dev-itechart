@@ -1,12 +1,8 @@
 .attention-container {
     width: 100%;
-    min-height: 204px;
     background-color: #f77462;
-}
-
-.attention {
     box-sizing: border-box;
-    padding: 45px 0 40px 0;
+    padding: 55px 0 51px 0;
 }
 
 .attention__title, .attention__prh {
@@ -15,7 +11,8 @@
 
 .attention__title {
     font-size: 32px;
-    margin-bottom: 11px;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 .attention__prh {
