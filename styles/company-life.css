@@ -1,12 +1,12 @@
 .life-container {
-    min-height: 647px;
     background-color: white;
     justify-content: flex-start;
 }
 
 .life {
-    margin: 55px 0 40px 0;
+    margin: 54px 0 54px 0;
     justify-content: flex-start;
+    width: 95%;
 }
 
 .life__header, life__body{
@@ -47,14 +47,14 @@
 }
 
 .life__list + .life__list{
-    margin-left: 57px;
+    margin-left: 5%;
 }
 
 .life__list {
     align-items: flex-start;
 }
 
-.life__list-item + .life__list-item {
+.life__says-list-item + .life__says-list-item {
     margin-top: 40px;
 }
 
@@ -127,7 +127,8 @@
     color: #f77462;
 }
 
-.news__more-icon {  
+.news__more-icon { 
+    font-size: 18px; 
     margin-left: 8px;
     color: #f77462;
 }
@@ -136,22 +137,17 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    min-height: 173px;
-    width: 540px;
     background-color: #ececec;
     box-sizing: border-box;
-    padding: 37px 26px 26px 33px;
+    padding: 38px 26px 30px 28px;
 }
 
 .says__comment + .says__icon{
-    margin-left: 30px;
+    margin-left: 31px;
 }
 
 .says__comment {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: flex-start;
+    max-width: 698px
 }
 
 .says__what {
@@ -169,9 +165,9 @@
 }
 
 .says__icon {
+    flex-shrink: 0;
     width: 106px;
     height: 106px;  
-    flex-shrink: 0;
 }
 
 .says__icon-img {

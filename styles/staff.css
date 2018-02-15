@@ -1,4 +1,4 @@
-.staff-person, .staff-panel-container, .staff {
+.staff-person, .staff {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -7,7 +7,7 @@
 
 .staff-panel-container {    
      width: 100%;
-     min-height: 574px;
+     min-height: 573px;
      background-color: white;
      justify-content: center;
      box-sizing: border-box;
@@ -18,7 +18,8 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    margin: 0 5px 0 5px;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 .staff {
