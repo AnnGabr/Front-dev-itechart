@@ -1,5 +1,4 @@
 .services-container {
-    min-height: 270px;
     width: 100%;
     background-color: #6dc5dd;
 }
@@ -9,7 +8,7 @@
     align-items: flex-start;
     justify-content: space-between;
     box-sizing: border-box;
-    margin: 53px 0 54px 0;
+    margin: 61px 0 60px 0;
 }
 
 .service + .service {
@@ -46,7 +45,7 @@
 
 .service__article {
     max-width: 260px;
-    color: white;
+    color: #ffffff;
     margin-left: 28px;
 }
 

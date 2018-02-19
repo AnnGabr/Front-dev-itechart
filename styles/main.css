@@ -39,9 +39,8 @@ body {
 .circle-icon {
     border-style: solid;
     border-width: 0;
-    border-color: rgb(255, 255, 255);
     border-radius: 50%;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     width: 50px;
     height: 50px;
 }
@@ -49,7 +48,7 @@ body {
 .prh {
     line-height: 22px;
     font-size: 15px;
-    color: rgb(120, 120, 120);
+    color: #787878;
 
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
@@ -57,7 +56,7 @@ body {
 }
 
 .prh--white {
-    color: white;
+    color: #ffffff;
 }
   
 .h2-like {
@@ -73,7 +72,7 @@ body {
 .h4-like {
     font-size: 16px;
     font-weight: bold;
-    color: rgb(0, 61, 72);
+    color: #003d48;
 }
   
 .btn {
@@ -81,10 +80,10 @@ body {
     border-width: 0;
     background-color: #f77462;
     background-clip: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
 
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    color: white;
+    color: #ffffff;
 }

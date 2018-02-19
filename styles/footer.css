@@ -2,7 +2,7 @@
     justify-content: flex-start;
     background-color: #6dc5dd;
     box-sizing: border-box;
-    padding: 56px 0 8px 0;
+    padding: 56px 0 1px 0;
     border-radius: 0 0 5px 5px;
 }
 
@@ -15,7 +15,7 @@
 
 .footer__list {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 34px;
 
     display: grid;
     grid-gap: 30px;
@@ -40,7 +40,6 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    box-sizing: border-box;
 
     min-height: 98px;
     width: 100%;  
