@@ -1,89 +1,12 @@
-html {
-    background-image: url('../resources/images/page-background.png');
-    box-sizing: border-box;
-    padding: 101px 0 90px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+@import "/styles/blocks/page/html.css"; 
+@import "/styles/blocks/page/body.css"; 
+@import "/styles/blocks/page/btn.css"; 
+@import "/styles/blocks/page/icon.css"; 
+@import "/styles/blocks/page/text.css"; 
 
-body {
-    display: block;
-    width: 1170px;
-}
+@import "/styles/blocks/header/header.css";
+@import "/styles/blocks/header/logo.css";
+@import "/styles/blocks/header/navigation.css";
 
-.main-theme {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.container, .content, .list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    width: 100%;
-}
-
-.content {
-    width: 95%;
-}
-
-.list--row {
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.circle-icon {
-    border-style: solid;
-    border-width: 0;
-    border-radius: 50%;
-    background-color: #ffffff;
-    width: 50px;
-    height: 50px;
-}
-
-.prh {
-    line-height: 22px;
-    font-size: 15px;
-    color: #787878;
-
-    -webkit-hyphens: manual;
-    -ms-hyphens: manual;
-    hyphens: manual;
-}
-
-.prh--white {
-    color: #ffffff;
-}
-  
-.h2-like {
-    font-weight: bold;
-    font-size: 32px;
-}
-
-.h3-like {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.h4-like {
-    font-size: 16px;
-    font-weight: bold;
-    color: #003d48;
-}
-  
-.btn {
-    border-radius: 3px;
-    border-width: 0;
-    background-color: #f77462;
-    background-clip: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
-
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 300;
-    color: #ffffff;
-}
+@import "/styles/fonts/fonts.css";
+@import "/styles/fonts/icon-fonts.css";

@@ -1,0 +1,26 @@
+.prh {
+    line-height: 24px;
+    font-size: 15px;
+    color: #787878;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+}
+  
+.h2-like {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.h3-like {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.h4-like {
+    font-size: 16px;
+    font-weight: bold;
+    color: #003d48;
+}

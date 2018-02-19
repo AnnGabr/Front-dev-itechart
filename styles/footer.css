@@ -2,7 +2,7 @@
     justify-content: flex-start;
     background-color: #6dc5dd;
     box-sizing: border-box;
-    padding: 56px 0 1px 0;
+    padding: 56px 0 1px;
     border-radius: 0 0 5px 5px;
 }
 
@@ -76,7 +76,7 @@
 @media all and (max-width: 840px) {
     .social {
         width: 100%;
-        margin: 18px 0 0 0;
+        margin: 18px;
     }
 }
   

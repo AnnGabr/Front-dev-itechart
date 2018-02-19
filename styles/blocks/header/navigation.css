@@ -1,0 +1,22 @@
+.nav {
+    margin-right: 5px;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0 27.5px 0 25.6px;
+    color: #787878;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+  
+.nav-item + .nav-item {
+    border-left-style: solid;
+    border-color: #e7e7e7; 
+    border-width: 1px;
+}
+
+.nav-item--first {
+    color: #6dc5dd;
+}
