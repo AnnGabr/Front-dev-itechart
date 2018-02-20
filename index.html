@@ -5,7 +5,6 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles\reset.css" />
-    <link rel="stylesheet" type="text/css" href="styles\banner.css" />
     <link rel="stylesheet" type="text/css" href="styles\service.css" />
     <link rel="stylesheet" type="text/css" href="styles\staff.css" />
     <link rel="stylesheet" type="text/css" href="styles\panel.css" />
@@ -13,9 +12,10 @@
     <link rel="stylesheet" type="text/css" href="styles\company-life.css" />
     <link rel="stylesheet" type="text/css" href="styles\footer.css" />  
     <link rel="stylesheet" type="text/css" href="styles\main.css" />
-    <link rel="stylesheet" type="text/css" href="styles\blocks\header\header.css" />
-    <link rel="stylesheet" type="text/css" href="styles\blocks\header\logo.css" />
-    <link rel="stylesheet" type="text/css" href="styles\blocks\header\navigation.css" />
+    <link rel="stylesheet" type="text/css" href="styles\blocks\banner\__content\image.css" />
+    <link rel="stylesheet" type="text/css" href="styles\blocks\banner\__content\info.css" />
+    <link rel="stylesheet" type="text/css" href="styles\blocks\banner\__content\content.css" />
+    <link rel="stylesheet" type="text/css" href="styles\blocks\banner\banner.css" />
 </head>
 <body>
     <header class="header">
@@ -45,8 +45,8 @@
         </ul>
     </header>
     <main>
-        <section class="container banner-container">
-            <div class="content banner">
+        <section class="banner">
+            <div class="banner__content">
                 <img class="banner__screen-img" src="resources/images/screen.png">
                 <div class="banner__info-container">
                     <div class="banner__article">
@@ -55,7 +55,7 @@
                         <p lang="en" class="prh banner__prh">Morbi in sem quis dui placerat ornare. Pellentesque odio
                         euismod in, pharetra a, ultricies in, diam.</p> 
                     </div>
-                    <button class="btn banner__btn">MORE INFO</button>
+                    <button class="btn btn--wide banner__btn">MORE INFO</button>
                 </div>
             </div>
         </section>

@@ -1,0 +1,37 @@
+.banner__info-container {
+    padding-bottom: 77px;
+}
+
+.banner__article {
+    margin-bottom: 33px;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner__subtitle, .banner__title {
+    color: #003d48;
+}
+
+.banner__subtitle {
+    font-weight: 300;
+    font-size: 30px;
+    word-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.banner__title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 43px;
+    margin-bottom: 26px;
+}
+
+.banner__prh {
+    color:#929292;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 470px;
+}
+
+.banner__btn {
+    font-size: 18px;
+}

@@ -11,3 +11,11 @@
     font-family: 'Source Sans Pro', sans-serif;
     color: #ffffff;
 }
+
+.btn--wide {
+    padding: 10.5px 23px;
+}
+
+.btn--narrow {
+
+}

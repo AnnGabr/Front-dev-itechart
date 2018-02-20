@@ -1,0 +1,13 @@
+.banner__content {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 16px;
+}
+
+.banner__screen-img + .banner__info-container {
+    margin-left: 104px;
+}
+
