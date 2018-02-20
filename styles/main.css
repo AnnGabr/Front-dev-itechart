@@ -8,5 +8,14 @@
 @import "/styles/blocks/header/logo.css";
 @import "/styles/blocks/header/navigation.css";
 
+@import "/styles/blocks/banner/banner.css";
+@import "/styles/blocks/banner/__content/image.css";
+@import "/styles/blocks/banner/__content/info.css";
+@import "/styles/blocks/banner/__content/content.css";
+
+@import "/styles/blocks/service/service.css";
+@import "/styles/blocks/service/service-list.css";
+@import "/styles/blocks/service/service-item.css";
+
 @import "/styles/fonts/fonts.css";
 @import "/styles/fonts/icon-fonts.css";

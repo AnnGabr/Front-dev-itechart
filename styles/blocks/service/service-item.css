@@ -1,0 +1,57 @@
+.service-item + .service-item {
+    margin-left: 4%;
+}
+
+.service-item {
+    display: flex;
+}
+
+.service-item__icon {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+}
+
+.service-item__flag-img {
+    width: 50%;
+    height: 71%;
+    margin: 16% 0 0 30%;
+}
+
+.service-item__camera-img {
+    width: 65%;
+    height: 53%;
+    margin: 24% 0 0 16%;
+}
+
+.service-item__house-img {
+    width: 74%;
+    height: 66%;
+    margin: 15% 0 0 12%;
+}
+
+.service-item__article {
+    max-width: 250px;
+    margin-left: 28px;
+}
+
+.service-item__title, .service-item__prh, .service-item__more {
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.service-item__title {
+    margin-bottom: 21px;
+    margin-left: -2.1px;
+}
+
+.service-item__more {
+    margin-top: 20px; 
+    font-size: 16px;
+    font-weight: bold;  
+}
+
+.service-item__more-icon {
+    font-size: 14px;
+    margin-left: 12px;
+}
