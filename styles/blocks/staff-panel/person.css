@@ -1,0 +1,28 @@
+.person__photo {
+    float: left;
+    padding-right: 30px;
+    border-radius: 5px;
+    width: 189px;
+    height: 198px;
+}
+
+.person__title {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 3px;
+    margin-bottom: 18px;
+    color: #003d48;
+}
+
+.title--last {
+    padding-top: 3px;
+    font-size: 18px;
+}
+
+.person__prh{
+    color: #929292;
+}
+
+.person__btn-more {
+    margin-top: 23px;
+    font-size: 16px;
+}

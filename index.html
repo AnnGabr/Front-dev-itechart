@@ -11,6 +11,9 @@
     <link rel="stylesheet" type="text/css" href="styles\company-life.css" />
     <link rel="stylesheet" type="text/css" href="styles\footer.css" />  
     <link rel="stylesheet" type="text/css" href="styles\main.css" />
+    <link rel="stylesheet" type="text/css" href="styles\blocks\staff-panel\panel.css" />
+    <link rel="stylesheet" type="text/css" href="styles\blocks\staff-panel\person.css" />
+    <link rel="stylesheet" type="text/css" href="styles\blocks\staff-panel\staff-panel.css" />
 </head>
 <body>
     <header class="header">
@@ -88,42 +91,42 @@
                 </li>
             </ul>
         </section>
-        <section class="staff-panel-container">
-            <div class="staff-panel">
-                <div class="staff-panel__grid-1-1"> 
-                    <div class="staff-person">
-                        <img class="staff-person__photo" src="./resources/images/person1.png">
-                        <div class="staff-person__char">
-                            <div class="staff-person__title">Lorem ipsum dolor sit amet</div>
-                            <p lang="en" class="prh staff-person__prh">
-                                Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus
-                                libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id,
-                                est. Sed lectus tpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu
-                            </p>
-                            <button class="btn staff-person__btn-more">MORE</button>
-                        </div>
+        <section class="staff-panel">
+            <div class="staff-panel__grid-1r-1c"> 
+                <div class="person">
+                    <img class="person__photo" src="./resources/images/person1.png">
+                    <div class="person__char">
+                        <h3 class="h3-like person__title">Lorem ipsum dolor sit amet</h3>
+                        <p lang="en" class="prh person__prh">
+                            Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus
+                            libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id,
+                            est. Sed lectus tpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu
+                        </p>
+                        <button class="btn person__btn-more">MORE</button>
                     </div>
                 </div>
-                <div class="staff-panel__grid-1-2"> 
-                    <div class="staff-person">
-                        <img class="staff-person__photo" src="./resources/images/person2.png">
-                        <div class="staff-person__char">
-                            <div class="staff-person__title title--last">Sed egestas ante et vulpu</div>
-                            <p lang="en" class="prh staff-person__prh">
-                                Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus
-                                libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id,
-                                est. Sed lectus tpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu
-                            </p>
-                            <button class="btn staff-person__btn-more">MORE</button>
-                        </div>
+            </div>
+            <div class="staff-panel__grid-2r-1c"> 
+                <div class="person">
+                    <img class="person__photo" src="./resources/images/person2.png">
+                    <div class="person__char">
+                        <h3 class="h3-like person__title title--last">Sed egestas ante et vulpu</h3>
+                        <p lang="en" class="prh person__prh">
+                            Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus
+                            libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id,
+                            est. Sed lectus tpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu
+                        </p>
+                        <button class="btn person__btn-more">MORE</button>
                     </div>
                 </div>
+            </div>
+            <div class="staff-panel__grid-2c">
                 <div class="panel">
                     <div class="tab__btns-container">
-                        <div class="btn tab__btn tab__btn--active">
+                        <div class="tab__btn tab__btn--active">
                             Eronped
                         </div>
-                        <div class="btn tab__btn">
+                        <div class="tab__btn">
                             Centro
                         </div>
                     </div>
@@ -131,7 +134,7 @@
                         <h3 class="h3-like tab__title">
                             Sedegin libero commo
                         </h3>
-                        <p lang="en" class="prh prh--white tab__prh">
+                        <p lang="en" class="prh tab__prh">
                             Simasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulpu tate sem tristique sem tris
                         </p>
                     </div>
