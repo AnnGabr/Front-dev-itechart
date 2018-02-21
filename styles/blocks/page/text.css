@@ -4,9 +4,9 @@
     color: #787878;
     font-family: 'Source Sans Pro', sans-serif;
 
-    -webkit-hyphens: manual;
-    -ms-hyphens: manual;
-    hyphens: manual;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
   
 .h1-like {
