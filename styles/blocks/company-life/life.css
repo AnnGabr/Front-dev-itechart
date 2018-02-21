@@ -1,0 +1,10 @@
+.life-container {
+    background-color: #ffffff;
+    justify-content: flex-start;
+}
+
+.life {
+    margin: 54px 0 54px 0;
+    justify-content: flex-start;
+    width: 95%;
+}

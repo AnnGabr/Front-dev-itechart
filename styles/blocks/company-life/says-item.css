@@ -1,0 +1,44 @@
+.life__says-list-item + .life__says-list-item {
+    margin-top: 40px;
+}
+
+.says {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #ececec;
+    box-sizing: border-box;
+    padding: 38px 26px 30px 28px;
+}
+
+.says__comment + .says__icon{
+    margin-left: 31px;
+}
+
+.says__comment {
+    max-width: 698px
+}
+
+.says__what {
+    color: #8B9193;
+    font-size: 15px;
+    line-height: 24px;
+}
+  
+.says__who {
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #f77462;
+}
+
+.says__icon {
+    flex-shrink: 0;
+    width: 106px;
+    height: 106px;  
+}
+
+.says__icon-img {
+    width: 76px;
+    height: 70px;  
+}

@@ -1,0 +1,25 @@
+.life__header, life__body{
+    width: 100%;
+    text-align: center;
+}
+
+.life__title {
+    text-align: center;
+    color: #003d48;
+}
+
+.life__prh {
+    font-size: 22px;
+    font-weight: 300;
+    color: #6dc5dd;
+    line-height: 46px;
+    height: 48px;
+
+    border-width: 1px 0 1px 0;
+    border-color: #ececec;
+    border-style: solid; 
+}
+
+.life__title + .life__prh {
+    margin-top: 25px;
+}

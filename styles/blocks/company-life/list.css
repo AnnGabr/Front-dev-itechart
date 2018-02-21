@@ -1,0 +1,7 @@
+.life__list + .life__list{
+    margin-left: 5%;
+}
+
+.life__list {
+    align-items: flex-start;
+}
