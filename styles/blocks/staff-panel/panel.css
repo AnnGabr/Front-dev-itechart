@@ -1,6 +1,6 @@
 .panel {
     width: 340px;
-    height: 432px;
+    max-height: 432px;
 }
 
 .tab__btns-container {
@@ -10,7 +10,7 @@
 
 .tab__btn {
     display: inline-block;
-
+    padding: 12px 21px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 17px;
@@ -29,7 +29,7 @@
 }
 
 .tab__btn + .tab__btn {
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 .tab__main-info, .tab__sub-info {
@@ -39,7 +39,7 @@
 .tab__main-info {
     background-color: #003d48;
     border-top-right-radius: 5px;
-    padding: 22px 30px 20px;
+    padding: 26px 30px 20px;
 }
 
 .tab__prh {
@@ -55,7 +55,7 @@
 .tab__sub-info {
     border-top-width: 0;
     border-radius: 0  0 5px 5px; 
-    padding: 28px 26px 22px 30px;
+    padding: 29px 24px 22px 32px;
 }
 
 .tab__sub-info-item  + .tab__sub-info-item {

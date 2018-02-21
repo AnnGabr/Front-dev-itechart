@@ -1,6 +1,6 @@
 .person__photo {
     float: left;
-    padding-right: 30px;
+    padding-right: 29px;
     border-radius: 5px;
     width: 189px;
     height: 198px;
@@ -24,5 +24,6 @@
 
 .person__btn-more {
     margin-top: 23px;
+    margin-left: 2px;
     font-size: 16px;
 }
