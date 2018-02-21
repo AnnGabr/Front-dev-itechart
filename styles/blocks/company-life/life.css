@@ -2,11 +2,10 @@
     background-color: #ffffff;
     padding: 54px 2.5%;
 
-    grid-column-gap: 4%;
+    grid-column-gap: 5%;
     grid-row-gap: 40px;
     display: grid;
     justify-content: space-between;
-    grid-auto-columns: 1fr 1fr;
 }
 
 .life__grid-1r {
