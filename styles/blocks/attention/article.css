@@ -1,21 +1,21 @@
-.attention-container {
-    width: 100%;
-    background-color: #f77462;
-    box-sizing: border-box;
-    padding: 55px 0 51px 0;
+.attention__article {
+    text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 .attention__title, .attention__prh {
-    color: white;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .attention__title {
-    font-size: 32px;
     margin-bottom: 8px;
-    font-weight: bold;
 }
 
 .attention__prh {
+    max-width: 72%;
+    margin: auto;
     text-align: center;
     line-height: 30px;
     font-size: 18px;
