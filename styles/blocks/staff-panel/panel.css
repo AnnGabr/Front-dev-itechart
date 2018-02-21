@@ -55,7 +55,7 @@
 .tab__sub-info {
     border-top-width: 0;
     border-radius: 0  0 5px 5px; 
-    padding: 29px 24px 22px 32px;
+    padding: 28px 32px 26px 30px;
 }
 
 .tab__sub-info-item  + .tab__sub-info-item {
