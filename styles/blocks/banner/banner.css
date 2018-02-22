@@ -1,9 +1,9 @@
 .banner {
-    background-image: -moz-linear-gradient( 90deg, #ffffff 0%, #f3f3f3 79%, #e7e7e7 100%);
-    background-image: -webkit-linear-gradient( 90deg, #ffffff 0%, #f3f3f3 79%, #e7e7e7 100%);
-    background-image: -ms-linear-gradient( 90deg, #ffffff 0%, #f3f3f3 79%, #e7e7e7 100%);
-    width: 100%;
-
     box-sizing: border-box;
+    width: 100%;
     padding: 52px 2.5% 0;
+
+    background-image:    -moz-linear-gradient( 90deg, #ffffff 0%, #f3f3f3 79%, #e7e7e7 100%);
+    background-image: -webkit-linear-gradient( 90deg, #ffffff 0%, #f3f3f3 79%, #e7e7e7 100%);
+    background-image:     -ms-linear-gradient( 90deg, #ffffff 0%, #f3f3f3 79%, #e7e7e7 100%);
 }

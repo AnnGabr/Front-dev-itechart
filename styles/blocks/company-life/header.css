@@ -2,19 +2,21 @@
     text-align: center;
 }
 
-.life__title {  
-    color: #003d48;
-    font-family: 'Source Sans Pro', sans-serif;
+.life__title {
     margin-bottom: 25px;
+
+    color: #003d48;
+
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .life__prh {
+    color: #6dc5dd;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #ececec;
+
     font-size: 22px;
     font-weight: 300;
-    color: #6dc5dd;
     line-height: 49px;
-    
-    border-width: 1px 0;
-    border-color: #ececec;
-    border-style: solid;
 }

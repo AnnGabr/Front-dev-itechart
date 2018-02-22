@@ -1,17 +1,19 @@
 .prh {
-    line-height: 24px;
-    font-size: 15px;
-    color: #787878;
-    font-family: 'Source Sans Pro', sans-serif;
-
     -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
+            hyphens: auto;
+
+    color: #787878;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+
+        -ms-hyphens: auto;
 }
-  
+
 .h1-like {
-    font-weight: bold;
     font-size: 32px;
+    font-weight: bold;
 }
 
 .h3-like {
@@ -20,7 +22,8 @@
 }
 
 .h4-like {
+    color: #003d48;
+
     font-size: 16px;
     font-weight: bold;
-    color: #003d48;
 }

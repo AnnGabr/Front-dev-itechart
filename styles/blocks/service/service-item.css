@@ -7,9 +7,10 @@
 }
 
 .service-item__icon {
-    flex-shrink: 0;
     width: 64px;
     height: 64px;
+
+    flex-shrink: 0;
 }
 
 .service-item__flag-img {
@@ -35,9 +36,12 @@
     margin-left: 28px;
 }
 
-.service-item__title, .service-item__prh, .service-item__more {
+.service-item__title,
+.service-item__prh,
+.service-item__more {
     color: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .service-item__title {
@@ -46,12 +50,14 @@
 }
 
 .service-item__more {
-    margin-top: 20px; 
+    margin-top: 20px;
+
     font-size: 16px;
-    font-weight: bold;  
+    font-weight: bold;
 }
 
 .service-item__more-icon {
-    font-size: 14px;
     margin-left: 12px;
+
+    font-size: 14px;
 }

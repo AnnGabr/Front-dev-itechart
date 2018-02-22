@@ -5,42 +5,62 @@
 
 .tab__btns-container {
     margin-top: 2px;
-    margin-bottom: -2px;
 }
 
 .tab__btn {
     display: inline-block;
-    padding: 12px 21px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    font-size: 17px;
+
+    padding: 13px 21px 8px;
+
     cursor: pointer;
 
+    color: #929292;
     border: solid 2px #ececec;
     border-bottom: none 0;
     border-radius: 5px 5px 0 0;
+    background-color: #ffffff;
 
-    background-color: #ffffff;   
-    color: #929292;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .tab__btn--active {
-    background-color: #003d48;
+    position: relative;
+
     color: #f77462;
+    background-color: #003d48;
+}
+
+.tab__btn--active::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 4px;
+
+    content: "";
+
+    background-color: inherit;
 }
 
 .tab__btn + .tab__btn {
     margin-left: 8px;
 }
 
-.tab__main-info, .tab__sub-info {
+.tab__main-info,
+.tab__sub-info {
     border: solid 2px #ececec;
 }
 
 .tab__main-info {
-    background-color: #003d48;
-    border-top-right-radius: 5px;
     padding: 26px 30px 20px;
+
+    border-top-right-radius: 5px;
+    background-color: #003d48;
 }
 
 .tab__prh {
@@ -48,27 +68,32 @@
 }
 
 .tab__title {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #6dc5dd;
     margin-bottom: 13px;
+
+    color: #6dc5dd;
+
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .tab__sub-info {
+    padding: 30px 32px 25px 30px;
+
     border-top-width: 0;
-    border-radius: 0  0 5px 5px; 
-    padding: 28px 32px 26px 30px;
+    border-radius: 0  0 5px 5px;
 }
 
-.tab__sub-info-item  + .tab__sub-info-item {
+.tab__sub-info-item + .tab__sub-info-item {
     border-top: solid 1px #ececec;
 }
 
-.sub-info-text{
+.sub-info-text {
     line-height: 35px;
 }
 
 .sub-info-arrow {
-    color: #f77462;
     margin-right: 16px;
+
+    color: #f77462;
+
     font-size: 16px;
 }

@@ -1,10 +1,12 @@
 .footer-item__title {
-    margin-bottom: 9px; 
-    letter-spacing: 1px;   
+    margin-bottom: 9px;
+
+    letter-spacing: 1px;
 }
 
 .footer-item__prh {
-    line-height: 27px;
     letter-spacing: 0.6px;
-    font-size: 14px;   
+
+    font-size: 14px;
+    line-height: 27px;
 }
