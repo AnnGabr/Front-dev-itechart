@@ -14,6 +14,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 17px;
+    cursor: pointer;
 
     border: solid 2px #ececec;
     border-bottom: none 0;
