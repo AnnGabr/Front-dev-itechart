@@ -7,6 +7,10 @@
 }
 
 .service-item__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 64px;
     height: 64px;
 
@@ -14,21 +18,17 @@
 }
 
 .service-item__flag-img {
-    width: 50%;
-    height: 71%;
-    margin: 16% 0 0 30%;
+    width: 49%;
+    margin-left: 10px;
 }
 
 .service-item__camera-img {
     width: 65%;
-    height: 53%;
-    margin: 24% 0 0 16%;
 }
 
 .service-item__house-img {
-    width: 74%;
-    height: 66%;
-    margin: 15% 0 0 12%;
+    width: 62%;
+    margin-bottom: 4px;
 }
 
 .service-item__article {
