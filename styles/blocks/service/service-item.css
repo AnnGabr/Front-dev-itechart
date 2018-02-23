@@ -8,13 +8,13 @@
 
 .service-item__icon {
     display: flex;
-    justify-content: center;
-    align-items: center;
 
     width: 64px;
     height: 64px;
 
+    align-items: center;
     flex-shrink: 0;
+    justify-content: center;
 }
 
 .service-item__flag-img {
@@ -46,7 +46,6 @@
 
 .service-item__title {
     margin-bottom: 21px;
-    margin-left: -2.1px;
 }
 
 .service-item__more {
