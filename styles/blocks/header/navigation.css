@@ -1,7 +1,7 @@
 .nav-item {
     display: inline-block;
 
-    padding: 0 27.5px 0 25.6px;
+    padding: 0 27px 0 25px;
 
     color: #787878;
 
@@ -14,6 +14,6 @@
     border-left: solid 1px #e7e7e7;
 }
 
-.nav-item--first {
+.nav-item--active {
     color: #6dc5dd;
 }
