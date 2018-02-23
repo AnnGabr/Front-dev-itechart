@@ -25,6 +25,8 @@
 }
 
 .life__prh {
+    display: block;
+
     color: #6dc5dd;
     border-width: 1px 0;
     border-style: solid;
