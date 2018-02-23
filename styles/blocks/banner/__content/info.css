@@ -1,6 +1,11 @@
 .banner__info-container {
+    display: inline-block;
+
     margin-left: 104px;
     padding-bottom: 77px;
+
+    text-align: start;
+    vertical-align: bottom;
 }
 
 .banner__article {
