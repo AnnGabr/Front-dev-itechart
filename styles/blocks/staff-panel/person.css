@@ -1,6 +1,14 @@
-.person__photo {
-    float: left;
+.person {
+    display: flex;
 
+    width: 100%;
+}
+
+.person:first-child {
+    margin-top: 0;
+}
+
+.person__photo {
     width: 189px;
     height: 198px;
     padding-right: 29px;

@@ -1,29 +1,28 @@
 .staff-panel {
-    display: grid;
-
     box-sizing: border-box;
     width: 100%;
     padding: 59px 2.5% 60px 2.5%;
 
     background-color: #ffffff;
-
-    grid-column-gap: 30px;
-    grid-row-gap: 58px;
-    grid-template-columns: auto max-content;
-    justify-content: space-between;
 }
 
-.staff-panel__grid-1r-1c {
-    grid-column: 1;
-    grid-row: 1;
+.staff-panel__staff-list {
+    display: inline-block;
+
+    width: 66.5%;
+
+    vertical-align: top;
 }
 
-.staff-panel__grid-2r-1c {
-    grid-column: 1;
-    grid-row: 2;
+.staff-panel__panel {
+    display: inline-block;
+
+    width: 20%;
+    margin-left: 2.5%;
+
+    vertical-align: top;
 }
 
-.staff-panel__grid-2c {
-    grid-column: 2;
-    grid-row: 1 / 3;
+.staff-panel__person {
+    margin-top: 58px;
 }
