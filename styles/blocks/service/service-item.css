@@ -1,9 +1,9 @@
-.service-item + .service-item {
-    margin-left: 4%;
-}
-
 .service-item {
     display: flex;
+}
+
+.service-item:first-child {
+    margin-left: 0;
 }
 
 .service-item__icon {

@@ -1,5 +1,5 @@
-.says-item + .says-item {
-    margin-top: 40px;
+.says-item:first-child {
+    margin-top: 0;
 }
 
 .says-item {
@@ -10,10 +10,6 @@
     padding: 37px 31px 29px 30px;
 
     background-color: #ececec;
-}
-
-.says-item__comment + .says-item__icon {
-    margin-left: 31px;
 }
 
 .says-item__what {
@@ -36,6 +32,7 @@
 .says-item__icon {
     width: 106px;
     height: 106px;
+    margin-left: 31px;
 
     flex-shrink: 0;
 }

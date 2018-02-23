@@ -8,8 +8,3 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.banner__screen-img + .banner__info-container {
-    margin-left: 104px;
-}
-

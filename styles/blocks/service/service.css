@@ -4,3 +4,16 @@
 
     background-color: #6dc5dd;
 }
+
+.service__list {
+    display: flex;
+
+    width: 95%;
+    margin: auto;
+
+    justify-content: space-between;
+}
+
+.servise__list-item {
+    margin-left: 4%;
+}

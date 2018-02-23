@@ -47,8 +47,12 @@
     background-color: inherit;
 }
 
-.tab__btn + .tab__btn {
+.tab__btn {
     margin-left: 8px;
+}
+
+.tab__btn:first-child {
+    margin-left: 0;
 }
 
 .tab__main-info,
@@ -82,8 +86,13 @@
     border-radius: 0  0 5px 5px;
 }
 
-.tab__sub-info-item + .tab__sub-info-item {
+
+.tab__sub-info-item {
     border-top: solid 1px #ececec;
+}
+
+.tab__sub-info-item:first-child {
+    border-top-width: 0;
 }
 
 .sub-info-text {
