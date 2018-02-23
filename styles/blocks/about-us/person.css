@@ -14,6 +14,8 @@
     padding-right: 29px;
 
     border-radius: 5px;
+
+    flex-shrink: 0;
 }
 
 .person__title {

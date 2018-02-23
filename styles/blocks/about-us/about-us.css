@@ -1,4 +1,4 @@
-.staff-panel {
+.about-us {
     box-sizing: border-box;
     width: 100%;
     padding: 59px 2.5% 60px 2.5%;
@@ -6,23 +6,28 @@
     background-color: #ffffff;
 }
 
-.staff-panel__staff-list {
+.about-us__staff-list,
+.about-us__tab {
     display: inline-block;
 
+    vertical-align: top;
+}
+
+.about-us__staff-list {
     width: 66.5%;
 
     vertical-align: top;
 }
 
-.staff-panel__panel {
+.about-us__tab {
     display: inline-block;
 
-    width: 20%;
+    width: 30%;
     margin-left: 2.5%;
 
     vertical-align: top;
 }
 
-.staff-panel__person {
+.about-us__person {
     margin-top: 58px;
 }

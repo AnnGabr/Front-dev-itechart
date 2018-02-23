@@ -1,5 +1,5 @@
-.panel {
-    width: 340px;
+.tab {
+    min-width: 340px;
     max-height: 432px;
 }
 
