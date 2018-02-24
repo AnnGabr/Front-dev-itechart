@@ -17,18 +17,8 @@
     justify-content: center;
 }
 
-.service-item__flag-img {
-    width: 49%;
-    margin-left: 10px;
-}
-
-.service-item__camera-img {
-    width: 65%;
-}
-
-.service-item__house-img {
-    width: 62%;
-    margin-bottom: 4px;
+.service-item__icon-img {
+    width: 69%;
 }
 
 .service-item__article {
