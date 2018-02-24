@@ -7,3 +7,34 @@
     background-image: -webkit-linear-gradient( 90deg, #ffffff 0%, #f3f3f3 79%, #e7e7e7 100%);
     background-image:     -ms-linear-gradient( 90deg, #ffffff 0%, #f3f3f3 79%, #e7e7e7 100%);
 }
+
+.banner__content {
+    display: flex;
+
+    margin-right: 16px;
+
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner__screen-img {
+    width: 380px;
+    height: 348px;
+    margin-right: 104px;
+}
+
+.banner__info {
+    padding-bottom: 77px;
+}
+
+.banner__article {
+    margin-bottom: 33px;
+}
+
+.banner__btn {
+    font-size: 18px;
+}
+
+
+

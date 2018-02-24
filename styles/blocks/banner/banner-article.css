@@ -1,0 +1,34 @@
+.banner-article__subtitle,
+.banner-article__title {
+    color: #003d48;
+
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.banner-article__subtitle {
+    margin-bottom: 12px;
+
+    word-spacing: 2px;
+
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.banner-article__title {
+    margin-bottom: 26px;
+
+    text-transform: uppercase;
+
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.banner-article__prh {
+    max-width: 470px;
+
+    color: #929292;
+
+    font-size: 18px;
+    line-height: 24px;
+}
+
