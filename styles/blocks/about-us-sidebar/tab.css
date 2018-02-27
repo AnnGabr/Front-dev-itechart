@@ -67,16 +67,16 @@
     background-color: #003d48;
 }
 
-.tab__prh {
-    color: #ffffff;
-}
-
 .tab__title {
     margin-bottom: 13px;
 
     color: #6dc5dd;
 
     font-family: "Source Sans Pro", sans-serif;
+}
+
+.tab__prh {
+    color: #ffffff;
 }
 
 .tab__sub-info {

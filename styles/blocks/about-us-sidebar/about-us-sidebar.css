@@ -1,0 +1,23 @@
+.about-us-sidebar {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 59px 2.5% 60px 2.5%;
+
+    background-color: #ffffff;
+}
+
+.about-us-sidebar__sidebar,
+.about-us-sidebar__about-us {
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.about-us-sidebar__sidebar {
+    width: 30%;
+    margin-left: 2.5%;
+}
+
+.about-us-sidebar__about-us {
+    width: 66.5%;
+}
