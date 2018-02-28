@@ -1,0 +1,26 @@
+.attention__article {
+    width: 80%;
+    margin: auto;
+
+    text-align: center;
+}
+
+.attention__title,
+.attention__prh {
+    color: #ffffff;
+
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.attention__title {
+    margin-bottom: 8px;
+}
+
+.attention__prh {
+    max-width: 72%;
+    margin: auto;
+
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}

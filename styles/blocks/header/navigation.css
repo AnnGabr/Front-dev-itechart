@@ -1,0 +1,19 @@
+.nav-item {
+    display: inline-block;
+
+    padding: 0 27px 0 25px;
+
+    color: #787878;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-item + .nav-item {
+    border-left: solid 1px #e7e7e7;
+}
+
+.nav-item--active {
+    color: #6dc5dd;
+}

@@ -1,0 +1,21 @@
+.btn {
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    border-width: 0;
+    border-radius: 3px;
+    background-color: #f77462;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+}
+
+.btn--wide {
+    padding: 10.5px 23px;
+}
+
+.btn--narrow {
+    padding: 9px 16px;
+}

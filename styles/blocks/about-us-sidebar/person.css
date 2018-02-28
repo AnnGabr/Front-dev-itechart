@@ -1,0 +1,38 @@
+.person {
+    display: flex;
+
+    width: 100%;
+}
+
+.person__photo {
+    width: 189px;
+    height: 198px;
+
+    border-radius: 5px;
+
+    flex-shrink: 0;
+}
+
+.person__about {
+    margin-left: 29px;
+}
+
+.person__title {
+    margin-bottom: 18px;
+    padding-top: 3px;
+
+    color: #003d48;
+
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.person__prh {
+    color: #929292;
+}
+
+.person__btn-more {
+    margin-top: 23px;
+    margin-left: 2px;
+
+    font-size: 16px;
+}

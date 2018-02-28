@@ -1,0 +1,68 @@
+<svg id="Camera" xmlns="http://www.w3.org/2000/svg" width="41.156" height="33.719" viewBox="0 0 41.156 35.719">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #e0decd;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #db5940;
+      }
+
+      .cls-3 {
+        fill: #d25133;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #cac8b7;
+      }
+
+      .cls-6 {
+        fill: #a6a495;
+      }
+    </style>
+  </defs>
+  <path id="body" class="cls-1" d="M823.718,708.718H789.429A3.429,3.429,0,0,1,786,705.289V684.715a3.422,3.422,0,0,1,2.876-3.373l-0.019-.056h3.429c7.43,0,5.144-6.286,10.287-6.286h8c5.144,0,2.858,6.286,10.287,6.286h3.429l-0.019.056a3.421,3.421,0,0,1,2.876,3.373v20.574A3.429,3.429,0,0,1,823.718,708.718Z" transform="translate(-786 -675)"/>
+  <path id="detail" class="cls-2" d="M786,689.287h41.147v11.43H786v-11.43Z" transform="translate(-786 -675)"/>
+  <path id="light" class="cls-3" d="M823.147,683.572a1.715,1.715,0,1,1-1.714,1.715A1.715,1.715,0,0,1,823.147,683.572Z" transform="translate(-786 -675)"/>
+  <path id="flash" class="cls-4" d="M803.145,676.714H810c1.2,0,2.286,2.858,2.286,2.858a1.714,1.714,0,0,1-1.715,1.714h-8a1.714,1.714,0,0,1-1.714-1.714S801.947,676.714,803.145,676.714Z" transform="translate(-786 -675)"/>
+  <circle id="lens" class="cls-5" cx="20.578" cy="19.438" r="10.297"/>
+  <path id="inner_lens" data-name="inner lens" class="cls-6" d="M806.574,687a7.43,7.43,0,1,1-7.43,7.43A7.429,7.429,0,0,1,806.574,687Z" transform="translate(-786 -675)"/>
+  <path id="shoot_button" data-name="shoot button" class="cls-6" d="M791.143,679.572h2.286a1.714,1.714,0,0,1,1.715,1.714h-5.715A1.714,1.714,0,0,1,791.143,679.572Z" transform="translate(-786 -675)"/>
+</svg>

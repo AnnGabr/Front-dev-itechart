@@ -1,0 +1,65 @@
+.banner {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 52px 2.5% 0;
+
+    background-image:    -moz-linear-gradient( 90deg, #ffffff 0%, #f3f3f3 79%, #e7e7e7 100%);
+    background-image: -webkit-linear-gradient( 90deg, #ffffff 0%, #f3f3f3 79%, #e7e7e7 100%);
+    background-image:     -ms-linear-gradient( 90deg, #ffffff 0%, #f3f3f3 79%, #e7e7e7 100%);
+}
+
+.banner__content {
+    display: flex;
+
+    margin-right: 16px;
+
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner__screen-img {
+    width: 380px;
+    height: 348px;
+    margin-right: 104px;
+}
+
+.banner__info {
+    padding-bottom: 77px;
+}
+
+.banner__article {
+    margin-bottom: 33px;
+}
+
+.banner__btn {
+    font-size: 18px;
+}
+
+@media (max-width: 1040px) {
+    .banner__info {
+        width: 100%;
+        padding-bottom: 50px;
+
+        text-align: center;
+
+        order: 0;
+    }
+
+    .banner__content {
+        margin-right: 0;
+    }
+
+    .banner__screen-img {
+        padding-left: 8px;
+
+        order: 1;
+    }
+
+    .banner-article__prh {
+        margin: auto;
+    }
+}
+
+
+

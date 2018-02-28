@@ -1,0 +1,19 @@
+.page {
+    background-image: url("../../../resources/images/page-background.png");
+}
+
+.page__inner {
+    max-width: 1170px;
+    margin: auto;
+}
+
+@media (max-width: 1170px) {
+    .page__inner {
+        margin: 0;
+    }
+
+    .page {
+        background-color: #ffffff;
+        background-image: none;
+    }
+}
