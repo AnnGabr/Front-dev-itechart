@@ -8,14 +8,18 @@
     margin-top: 0;
 }
 
+
 .person__photo {
     width: 189px;
     height: 198px;
-    padding-right: 29px;
 
     border-radius: 5px;
 
     flex-shrink: 0;
+}
+
+.person__about {
+    margin-left: 29px;
 }
 
 .person__title {
