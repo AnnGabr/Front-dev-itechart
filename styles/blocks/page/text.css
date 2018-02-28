@@ -11,19 +11,19 @@
         -ms-hyphens: auto;
 }
 
-.h1-like {
+.main-title {
     font-size: 32px;
-    font-weight: bold;
 }
 
-.h3-like {
+.article-title--big {
     font-size: 20px;
-    font-weight: bold;
 }
 
-.h4-like {
-    color: #003d48;
+.article-title--middle {
+    font-size: 18px;
+}
 
+.article-title--small {
     font-size: 16px;
-    font-weight: bold;
 }
+

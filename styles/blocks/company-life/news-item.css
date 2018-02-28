@@ -53,6 +53,8 @@
 
 .news-item__title {
     margin-bottom: 6px;
+
+    color: #003d48;
 }
 
 .news-item__comments {

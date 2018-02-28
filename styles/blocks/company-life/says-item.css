@@ -20,11 +20,11 @@
 }
 
 .says-item__what::before {
-    content: '“';
+    content: "“";
 }
 
 .says-item__what::after {
-    content: '’';
+    content: "’";
 }
 
 .says-item__who {
@@ -38,7 +38,7 @@
 }
 
 .says-item__who::before {
-    content: '- ';
+    content: "- ";
 }
 
 .says-item__icon {
@@ -63,9 +63,9 @@
 
 @media (max-width: 670px) {
     .says-item__icon {
+        float: right;
+
         width: 80px;
         height: 80px;
-        float: right;
     }
 }
-
