@@ -19,6 +19,14 @@
     line-height: 24px;
 }
 
+.says-item__what::before {
+    content: '“';
+}
+
+.says-item__what::after {
+    content: '’';
+}
+
 .says-item__who {
     margin-top: 12px;
 
@@ -27,6 +35,10 @@
     font-family: "Source Sans Pro", sans-serif;
     font-size: 16px;
     font-weight: bold;
+}
+
+.says-item__who::before {
+    content: '- ';
 }
 
 .says-item__icon {
@@ -43,7 +55,7 @@
     margin: 23% 14%;
 }
 
-@media (max-width: 1040px) and (min-width: 670px) {
+@media (min-width: 670px) and (max-width: 1040px) {
     .says-item__icon {
         display: none;
     }
