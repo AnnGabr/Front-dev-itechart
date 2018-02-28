@@ -4,9 +4,16 @@
     letter-spacing: 1px;
 }
 
-.footer-item__prh {
+.footer-item__links {
     letter-spacing: 0.6px;
 
     font-size: 14px;
     line-height: 27px;
+}
+
+.footer-item__title,
+.footer-item__links {
+    color: #ffffff;
+
+    font-family: "Source Sans Pro", sans-serif;
 }
