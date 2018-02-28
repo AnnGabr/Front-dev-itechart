@@ -17,3 +17,9 @@
 .service__list-item {
     margin-left: 4%;
 }
+
+@media (max-width: 670px) {
+    .service {
+        padding: 40px 0;
+    }
+}
