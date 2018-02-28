@@ -5,3 +5,7 @@
 .about-us__person {
     margin-top: 58px;
 }
+
+.about-us__person:first-child {
+    margin-top: 0;
+}

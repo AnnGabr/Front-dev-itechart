@@ -45,6 +45,14 @@
     margin-top: 40px;
 }
 
+.life__news-item:first-child {
+    margin-top: 0;
+}
+
+.life__says-item:first-child {
+    margin-top: 0;
+}
+
 @media (max-width: 670px) {
     .life__header {
         grid-column: auto;

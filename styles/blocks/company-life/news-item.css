@@ -4,10 +4,6 @@
     max-width: 522px;
 }
 
-.news-item:first-child {
-    margin-top: 0;
-}
-
 .news-item__date {
     width: 70px;
     height: 68px;
@@ -42,7 +38,7 @@
     line-height: 21px;
 }
 
-.news-item__article {
+.news-item__about {
     margin-left: 30px;
 }
 
@@ -63,7 +59,7 @@
     font-size: 15px;
 }
 
-.news-item__about {
+.news-item__prh {
     margin-top: 10px;
 }
 
