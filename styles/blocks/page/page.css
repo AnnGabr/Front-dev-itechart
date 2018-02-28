@@ -7,3 +7,13 @@
     margin: auto;
 }
 
+@media (max-width: 1170px) {
+    .page__inner {
+        margin: 0;
+    }
+
+    .page {
+        background-color: #ffffff;
+        background-image: none;
+    }
+}
