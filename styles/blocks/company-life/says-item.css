@@ -38,7 +38,22 @@
 }
 
 .says-item__icon-img {
-    width: 76px;
-    height: 70px;
+    width: 70%;
+    height: 65%;
     margin: 23% 14%;
 }
+
+@media (max-width: 1040px) and (min-width: 670px) {
+    .says-item__icon {
+        display: none;
+    }
+}
+
+@media (max-width: 670px) {
+    .says-item__icon {
+        width: 80px;
+        height: 80px;
+        float: right;
+    }
+}
+

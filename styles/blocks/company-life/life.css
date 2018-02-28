@@ -36,10 +36,21 @@
     font-weight: 300;
     line-height: 49px;
 }
+
 .life__news-item {
     margin-top: 51px;
 }
 
 .life__says-item {
     margin-top: 40px;
+}
+
+@media (max-width: 670px) {
+    .life__header {
+        grid-column: auto;
+    }
+
+    .life {
+        justify-items: center;
+    }
 }
