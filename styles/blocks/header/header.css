@@ -1,18 +1,15 @@
-.header-wrapper {
-    box-sizing: border-box;
+.header-container {
     width: 100%;
-    padding: 25px 0 25px;
     border-radius: 5px 5px 0 0;
     background-color: #ffffff;
-    z-index: 3;
+    z-index: 10;
 }
 
 .header {
     display: flex;
-
+    padding: 25px 0 25px;
     align-items: center;
     justify-content: space-between;
-    position: relative;
 }
 
 .header__logo {

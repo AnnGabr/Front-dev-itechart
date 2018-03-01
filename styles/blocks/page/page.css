@@ -2,6 +2,10 @@
     background-image: url("../../../resources/images/page-background.png");
 }
 
+.page--popup {
+    overflow: hidden;
+}
+
 .page__inner {
     max-width: 1170px;
     margin: auto;
