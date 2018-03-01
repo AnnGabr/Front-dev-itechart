@@ -59,9 +59,14 @@
 
 @media (max-width: 670px) {
     .says-item__icon {
-        float: right;
+        width: 90px;
+        height: 90px;
+        margin-left: 3%;
+    }
+}
 
-        width: 80px;
-        height: 80px;
+@media (max-width: 425px) {
+    .says-item__icon {
+        display: none;
     }
 }
