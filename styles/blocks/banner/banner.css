@@ -61,5 +61,13 @@
     }
 }
 
+@media (max-width: 580px) {
+    .banner__screen-img {
+        width: 280px;
+        height: 248px;
+        margin-right: 46px;
+    }
+}
+
 
 

@@ -1,5 +1,6 @@
 .page {
     background-image: url("../../../resources/images/page-background.png");
+    overflow-x: hidden;
 }
 
 .page--popup {

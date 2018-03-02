@@ -86,3 +86,15 @@
         cursor: pointer;
     }
 }
+
+@media (max-width: 500px) {
+    .service-item__title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .service-item__title {
+        font-size: 20px;
+    }
+}
