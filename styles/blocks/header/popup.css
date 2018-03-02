@@ -1,36 +1,45 @@
 .popup-container {
-    transition: 1s;
     min-height: 0vh;
+
+    transition: 1s;
 }
 
 .popup-container--active {
+    overflow-y: visible;
+
     width: 100vw;
     min-height: 100vh;
-    overflow-y: visible;  
 }
 
 .popup {
     position: absolute;
-    z-index: 8;
-    width: 100%;  
-    text-align: center; 
-    
+    z-index: -5;
+
+    width: 100%;
+
+    transition: 0.5s;
+    text-align: center;
+
     opacity: 0;
-    transition: 1s;
 }
 
-.popup--active {  
-    margin-top: 60px;
+.popup--active {
+    z-index: 30;
+
+    margin-top: 20%;
+
     opacity: 1;
 }
 
 .popup-item {
-    color: #787878;
-    font-weight: 300;
-    font-size: 2.6rem;
-    font-family: "Source Sans Pro", sans-serif;
-    line-height: 5rem;
     transition: color 1s;
+
+    color: #787878;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2.6rem;
+    font-weight: 300;
+    line-height: 5rem;
 }
 
 .popup-item:hover {
