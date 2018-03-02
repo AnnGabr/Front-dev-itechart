@@ -1,6 +1,7 @@
 .page {
-    background-image: url("../../../resources/images/page-background.png");
     overflow-x: hidden;
+
+    background-image: url("../../../resources/images/page-background.png");
 }
 
 .page--popup {
