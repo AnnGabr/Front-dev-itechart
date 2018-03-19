@@ -12,6 +12,7 @@
 
 .life__header {
     text-align: center;
+    width: 100%;
 
     grid-column: 1 / 3;
 }
@@ -60,5 +61,6 @@
 
     .life {
         justify-items: center;
+        grid-auto-columns: 1fr;
     }
 }

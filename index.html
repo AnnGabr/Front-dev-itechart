@@ -5,15 +5,16 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles\reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles\hamburgers.min.css" />
     <link rel="stylesheet" type="text/css" href="styles\blocks\page\page.css" />
     <link rel="stylesheet" type="text/css" href="styles\blocks\page\btn.css" />
     <link rel="stylesheet" type="text/css" href="styles\blocks\page\icon.css" />
     <link rel="stylesheet" type="text/css" href="styles\blocks\page\text.css" />
     <link rel="stylesheet" type="text/css" href="styles\blocks\page\link.css" />
-    <link rel="stylesheet" type="text/css" href="styles\blocks\page\normalize.css" />
     <link rel="stylesheet" type="text/css" href="styles\blocks\header\header.css" />
     <link rel="stylesheet" type="text/css" href="styles\blocks\header\logo.css" />
     <link rel="stylesheet" type="text/css" href="styles\blocks\header\navigation.css" />
+    <link rel="stylesheet" type="text/css" href="styles\blocks\header\popup.css" />
     <link rel="stylesheet" type="text/css" href="styles\blocks\banner\banner-article.css" />
     <link rel="stylesheet" type="text/css" href="styles\blocks\banner\banner.css" />
     <link rel="stylesheet" type="text/css" href="styles\blocks\service\service.css" />
@@ -32,32 +33,58 @@
     <link rel="stylesheet" type="text/css" href="styles\blocks\company-life\news-item.css" />
     <link rel="stylesheet" type="text/css" href="styles\blocks\company-life\says-item.css" />
     <link rel="stylesheet" type="text/css" href="styles\fonts\fonts.css" />
-    <link rel="stylesheet" type="text/css" href="styles\fonts\icon-fonts.css" />
+    <link rel="stylesheet" type="text/css" href="styles\fonts\icon-fonts.css" />   
 </head>
-<body class="page">
+<body class="page" role="popup-page">
     <div class="page__inner">
-        <header class="header">
-            <div class="logo">
-                <img class="logo__img" src="./resources/images/logo.png">
-                <div class="logo__text">
-                    <div class="logo__site-name"><span class="logo__site">Site</span> <span class="logo__name">Name</span></div> 
-                    <span class="logo__caption">your caption here </span>
+        <header class="header-container popup-container" role="popup-container">
+            <div class="header">
+                <div class="logo header__logo">
+                    <img class="logo__img" src="./resources/images/logo.png">
+                    <div class="logo__text">
+                        <div class="logo__site-name">
+                            <span class="logo__site">Site</span> <span class="logo__name">Name</span>
+                        </div> 
+                        <span class="logo__caption">your caption here </span>
+                    </div>
                 </div>
+                <div class="hamburger hamburger--collapse header__hamburger" role="trigger">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+                <ul class="nav header__nav">
+                    <li class="nav-item nav-item--active">
+                        <a class="link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="nav">
-                <li class="nav-item nav-item--active">
+            <ul class="popup" role="popup">
+                <li class="popup-item">
                     <a class="link" href="#">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="popup-item">
                     <a class="link" href="#">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="popup-item">
                     <a class="link" href="#">Services</a>
                 </li>
-                <li class="nav-item">
+                <li class="popup-item">
                     <a class="link" href="#">Portfolio</a>
                 </li>
-                <li class="nav-item">
+                <li class="popup-item">
                     <a class="link" href="#">Contact</a>
                 </li>
             </ul>
@@ -370,6 +397,7 @@
                 </div>
             </div>
         </footer>
+        <script src="scripts\hamburger.js" charset="utf-8"></script>
     </div>
 </body>
 </html>

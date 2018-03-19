@@ -62,7 +62,7 @@
         margin: auto;
     }
 
-    .service-item__article {
+    .service-item__about {
         margin: 20px 0 0;
 
         text-align: center;
@@ -84,5 +84,17 @@
         height: 75px;
 
         cursor: pointer;
+    }
+}
+
+@media (max-width: 500px) {
+    .service-item__title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .service-item__title {
+        font-size: 20px;
     }
 }

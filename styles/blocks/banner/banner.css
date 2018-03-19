@@ -51,13 +51,21 @@
     }
 
     .banner__screen-img {
-        padding-left: 8px;
+        margin-right: 96px;
 
         order: 1;
     }
 
     .banner-article__prh {
         margin: auto;
+    }
+}
+
+@media (max-width: 580px) {
+    .banner__screen-img {
+        width: 280px;
+        height: 248px;
+        margin-right: 46px;
     }
 }
 

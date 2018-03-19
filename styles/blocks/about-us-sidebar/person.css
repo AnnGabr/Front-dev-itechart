@@ -36,3 +36,22 @@
 
     font-size: 16px;
 }
+
+@media (max-width: 580px) {
+    .person__photo {
+        width: 219px;
+        height: 228px;
+    }
+
+    .person {
+        flex-direction: column;
+
+        text-align: center;
+
+        align-items: center;
+    }
+
+    .person__about {
+        margin: 30px 0 0;
+    }
+}
